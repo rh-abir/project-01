@@ -8,8 +8,9 @@
     width: 160px;
     height: 50px;
     border-radius: 5px;
-    background-color: #F15B22;
     border: 0;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .header-section{
@@ -42,8 +43,6 @@
 .contact-btn{
     background-color: #F15B22;
     color: white;
-    font-weight: bold;
-    font-size: 16px;
 }
 
 /* failures-section styles */
@@ -76,6 +75,9 @@
 }
 
 /* plans-section styles */
+.plans-section{
+    margin: 120px 0;
+}
 
 .plans-section h2{
     text-align: center;
@@ -100,4 +102,28 @@
     color: #737272;
     font-size: 20px;
     font-weight: 500;
+}
+
+/* calls-section styles */
+
+.calls-section{
+    background-image: url("../images/watch.png"), url("../images/gradient3.png");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    margin: 120px 0;
+    width: 75%;
+    margin: 0 auto;
+}
+.call{
+    padding:40px  0px 40px 50px;
+}
+.call h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: white;
+    margin-bottom: 10px;
+}
+.call-btn{
+    color: #F15B22;
 }
