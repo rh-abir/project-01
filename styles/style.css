@@ -127,3 +127,60 @@
 .call-btn{
     color: #F15B22;
 }
+
+/* footer section styles */
+
+footer{
+    background-color: #151414;
+    padding: 70px 120px;
+    margin-top: 120px;
+    color: wheat;
+}
+.footer-section{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    gap: 200px;
+}
+.future-footer h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: white
+    ;
+}
+.future-footer p{
+    line-height: 26px;
+    color: #fff;
+    width: 60%;
+    margin: 20px 0;
+}
+
+.future-footer h5{
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.socials-icon{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.subscribe-footer{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.subscribe-footer input{
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 15px 0;
+    background: #151414;
+    color: #fff;
+}
+.subscribe-btn{
+    color: #F15B22;
+}
