@@ -41,3 +41,30 @@
 .contact-btn{
     background-color: #F15B22;
 }
+
+/* failures-section styles */
+
+.failures-section{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 100px;
+    margin-top: 150px;
+}
+.failures-article h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.failures-article p{
+    margin: 20px 0;
+    line-height: 26px;
+}
+.failures-list li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.failures-list li i{
+    color: #16D887;
+}
