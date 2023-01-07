@@ -3,6 +3,14 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+hr{
+    width: 10%;
+    padding: 5px 0px;
+    background-color: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 auto;
+}
 
 .primary-btn{
     width: 160px;
@@ -185,4 +193,64 @@ footer{
 .subscribe-btn{
     color: #F15B22;
     margin-top: 5px;
+}
+
+
+/* we-do-section styles*/
+.we-do-section{
+    margin-bottom: 120px;
+}
+.works-section{
+    width: 75%;
+    margin: 0 auto;
+}
+.works-section h2{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin: 5px 0 15px 0px;
+}
+.works-section > p{
+    text-align: center;
+}
+
+.works-items{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.works-items .items{
+    width: 450px;
+    height: 250px;
+    background-color: #1B5A8D;
+    text-align: center;
+    padding: 40px 5px 0px 5px ;
+    border-radius: 10px;
+    color: #fff;
+}
+.works-items .active, .items:hover{
+    background-color: #F15B22;
+}
+
+.works-items .items img{
+    width: 47px;
+    height: 69px;
+}
+
+.works-items .items p{
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+
+.item-btn{
+    background-color: transparent;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    color: #fff;
+
+
 }
