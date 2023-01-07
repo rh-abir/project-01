@@ -252,8 +252,7 @@ footer {
     color: #fff;
 }
 
-.works-items .active,
-.items:hover {
+.works-items .active{
     background-color: #F15B22;
 }
 
